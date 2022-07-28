@@ -17,3 +17,20 @@ Para generar el proyecto se escribe el siguiente comando "docker-compose build".
 Para iniciar el servicio ejecutamos el comando "docker-compose up".
 ## Detencion del contenedor del docker
 Para detener los servicios ejecutamos el comando "docker-compose stop".
+
+
+
+
+
+pedido a domicilio 
+atributo:::              tipo de datos::::: ejemplo:::
+codigo:                    cadena       p-0001
+fecha:                    cadena       2022-07-19
+identificacion de usuario  cadena    c-1313131
+productos           cadena                  -coca cola - hog dog ---batido dementa
+
+total pedido        numero          32$
+estado      numero               1. pendiente 
+                                2.aceptado
+                                3.rechazado
+                                4.completado
